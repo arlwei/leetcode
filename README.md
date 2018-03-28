@@ -1,2 +1,2 @@
 # leetcode
-leetcode programming codes
+a code repository for leetcode solutions
