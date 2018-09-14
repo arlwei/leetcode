@@ -7,12 +7,6 @@
  *  The integer division should truncate toward zero.
  */
 public class DivideTwoIntegers {
-
-    public static void main(String[] args) {
-        int r = new DivideTwoIntegers().divide(-2147483648, -2147483648);
-        System.out.println(r);
-    }
-
     public int divide(int dividend, int divisor) {
         //The divisor will never be 0, or the max integer is 2**31 − 1
         if(divisor == 0 || dividend == Integer.MIN_VALUE && divisor == -1)
